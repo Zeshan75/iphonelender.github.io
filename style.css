@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black !important;
+    position: relative;
+    min-height: 100vh;
+    color: white !important;
+    text-align: center !important;
+    font-family: "SF-Pro-Display-Regular";
+    
+
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+}
+
+.navbar-expand-lg{
+ display: flex;
+ justify-content: center !important;
+}
+
+.menuicon{
+    width: 28%;
+}
+.store{
+    width:28%;
+}
+.navbar{
+    background-color: rgba(45,45,45,0.98) !important;
+}
+.nav-item{
+    padding: 0 !important;
+    
+}
+.nav-item a{
+    padding: 0 !important;
+    margin: 0px 40px 0 37px;
+}
+
+
+/* small navbar */
+
+.secondNav{
+    background-color: rgba(45,45,45,0.98);
+}
+#nav2{
+    padding: 10px !important;
+}
+
+.heading{
+    text-transform: uppercase;
+    line-height: 83px;
+
+   
+}
+.hspace{
+    margin-right: 13px !important;
+}
+
+.heading ul{
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.heading ul li{
+    font-size: 58px;
+    margin: 13px 0;
+    font-weight: 800;
+    list-style: none;
+    letter-spacing: 3px;
+    animation: glow 4.8s ease-in-out infinite;
+}
+
+/* for animation */
+
+        .heading ul li:nth-child(1){
+            animation-delay: 0.4s;
+        }
+
+        .heading ul li:nth-child(2){
+            animation-delay: 0.8s;
+        }
+
+        .heading ul li:nth-child(3){
+            animation-delay: 1.2s;
+        }
+
+        .heading ul li:nth-child(4){
+            animation-delay: 1.6s;
+        }
+
+        .heading ul li:nth-child(5){
+            animation-delay: 2s;
+        }
+
+        .heading ul li:nth-child(6){
+            animation-delay: 2.4s;
+        }
+
+        .heading ul li:nth-child(6){
+            animation-delay: 2.8s;
+        }
+
+        .heading ul li:nth-child(7){
+            animation-delay: 3.2s;
+        }
+
+        .heading ul li:nth-child(8){
+            animation-delay: 3.6s;
+        }
+
+        .heading ul li:nth-child(9){
+            animation-delay: 4s;
+        }
+
+        .heading ul li:nth-child(10){
+            animation-delay: 4.4s;
+        }
+        .heading ul li:nth-child(11){
+            animation-delay: 4.8s;
+        }
+
+
+
+        /* Main Row */
+
+.row{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.mainImg{
+    width: 61%;
+}
+
+.imgTxt{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 !important;
+
+}
+
+.cong{
+    letter-spacing: 5px;
+}
+
+.col1-lg-3 .col3-lg-3{
+    max-width: 25%;
+}
+.col2-lg-6{
+    max-width: 50%;
+}
+
+
+
+/* progress */
+
+.progress{
+    height: 33px !important;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+/* final page */
+
+.paraTxt {
+    font-size: 24px;
+    color: #2970ba;
+}
+
+.congTxt{
+    font-size: 24px;
+}
+.congTxt2{
+   font-size: 24px;
+}
+
+.iPhoneImg{
+    width:20%
+}
+
+.cong2{
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.cong2Txt{
+    margin-bottom: 0;
+    font-size: 31px;
+    font-weight: 700;
+}
+.cong2Txt2{
+   font-size: 24px;
+}
+
+.cont{
+    
+    background-color: #2e70b8;
+    border-color: #2e70b8;
+    width: 33%;
+    font-size: 34px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+.cont a{
+    color: white;
+}
+
+.cont a:hover{
+    text-decoration: none;
+    color:#212529;
+    
+}
+
+.vigity{
+    font-size: 20px;
+    color: #e7422a;
+    margin-bottom: 30px;
+}
+
+
+.btn{
+    background: linear-gradient( 180deg, #5785b5 31%, #2072b2 72%);
+    width: 70% !important;
+    text-align: center;
+}
+button.btn.btn-primary.btn-block {
+    margin: auto;
+}
+
+.btnDisc{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 21px;
+    padding-top: 35px;
+}
+
+
+
+  /* comment section */
+
+
+.comment{
+    display: block;
+    margin:0 20px
+}
+.final-img {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.comment>.row{
+    width: 30%;
+    margin: 0 35%;
+}
+.comment-subtext {
+    font-size: 12px;
+    color: #4463a0;
+}
+
+.like{
+    width: 10%;
+}
+.user-name {
+    color: #4463a0;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.fb-background{
+    font-size: 10px;
+    background: white;
+    border-radius: 51px;
+    color: black;
+    padding: 10px;
+}
+.like {
+    width: 33px;
+    position: absolute;
+    top: 30px;
+    right: 14px;
+}
+.see-text{
+    font-size: 16px;
+    color: #4463a0;
+    padding-top: 20px;
+    
+}
+
+
+#Page2, #Page3, .final-page,.loader{
+    display: none;
+}
+
+/* try for loading effect */
+
+.test{
+    display: none;
+}
+
+.testC {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+
+
+/* for heading animation */
+
+@keyframes glow{
+   
+    0%, 100%{
+        color: #eee;
+        text-shadow:0 0 10px #00acee, 0 0 50px #00acee,0 0 90px #00acee,0 0 100px #00acee,0 0 300px #00acee;
+    }
+    
+    10%,90%{
+        color: #fff;
+        text-shadow: none;
+    }
+}
+
+
+/* Footer */
+
+.footer{
+    padding-top: 40px !important;
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+}
+ul.footer-content{
+    margin-top: 10px 0;
+}
+   
+
+.footer-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+li.footer-item a{
+    margin: 0px 13px;
+    color: #313130 !important;
+    font-weight: 500;
+}
+
+li.footer-item a:hover{
+    text-decoration: none;
+}
+
+.appleLoad{
+    width: 8%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Queries */
+
+
+
+
+
+
+@media(max-width:768px){
+    
+    a.nav-link {
+        margin: 0 10px;
+    }
+   
+    .mainImg {
+        width: 90%;
+    }
+    .cong{
+        font-size: 26px;
+    }
+    .congTxt{
+        font-size: 16px;
+    }
+    .btnDisc {
+        font-size: 15px;
+    }
+    .paraTxt{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .iPhoneImg {
+        width: 26%;
+    }
+
+    button.cont{
+        width: 76%;
+        height: 62px;
+    }
+
+    .fImage{
+        width: 4%;
+
+    }
+    .rating{
+        width: 15%;
+    }
+    .comment>.row {
+        width: 64%;
+        margin: 0 17%;
+    }
+
+    li.footer-item a {
+        margin: 0px 5px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .appleLoad{
+        width: 15%;
+    }
+
+}
+
+@media(max-width:425px){
+    .navbar{
+        display: none !important;
+    }
+    .nav-item a:last-child{
+        display: none !important;
+    }
+    .secondNav{
+        display: block;
+    }
+    .heading ul li {
+        font-size: 45px;
+    }
+    .mainImg{
+        width: 76%;
+    }
+    .cong{
+        font-size: 26px;
+        letter-spacing: 3px;
+        font-size: 23px;
+    }
+    .congTxt{
+        font-size: 16px;
+    }
+    li.footer-item a {
+        font-size: 12px;
+    }
+    .btnDisc {
+        font-size: 15px;
+    }
+
+    .cong2{
+        letter-spacing: 0px;
+        font-weight: 500;
+        font-size: 36px;
+    }
+    
+    .cong2Txt{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .fImage{
+        width: 9%;
+    }
+    .rating{
+        width: 35%;
+    }
+
+    .comment>.row {
+        width: 82%;
+        margin: 0 8%;
+    }
+
+    .appleLoad{
+        width: 26%;
+    }
+
+}
+@media(min-width: 426px){
+    .secondNav{
+        display: none;
+    }
+}
